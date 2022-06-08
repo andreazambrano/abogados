@@ -217,7 +217,7 @@ img{
 /* Typography */
 
 h1{
-	font-size:84px;
+	font-size:60px;
 	line-height:1.1em;
 	font-weight:700;
 }
@@ -2065,7 +2065,7 @@ img{
 }
 
 .header-style-three .header-upper{
-	background-color:rgba(0,0,0,0.50);
+	background-color:rgb(0 0 0 / 78%);
 }
 
 .header-style-three.fixed-header .header-upper{
