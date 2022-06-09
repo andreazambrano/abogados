@@ -452,7 +452,7 @@
 	}
 	
 	.main-header.header-style-three .nav-outer{
-		width:100%;
+		width:30%;
 	}
 	
 	.header-style-three .main-menu .navigation > li{
@@ -461,7 +461,7 @@
 	}
 	
 	.main-header.header-style-three .header-upper .logo-box{
-		padding:15px 0px 0px;
+		padding:0px 0px 0px;
 	}
 	
 	.main-header.header-style-three .header-upper .options-box{
@@ -477,7 +477,7 @@
 	.header-top .top-right .evaluation,
 	.header-top .top-right .address{
 		float:none;
-		display:inline-block;
+		display:none;
 	}
 	
 	.main-slider-three .slide{
@@ -1039,8 +1039,8 @@
 	}
 	
 	.main-header .header-upper .logo-box{
-		width:100%;
-		text-align:center;
+		width: 70%;
+    	text-align: left;
 	}
 	
 	.main-header .nav-outer{
@@ -1087,7 +1087,7 @@
 	}
 	
 	.main-header.fixed-header .nav-outer .mobile-nav-toggler{
-		color:#111111;
+		color:#a8881b;
 	}
 	
 	.main-header.header-style-two .options-box{
