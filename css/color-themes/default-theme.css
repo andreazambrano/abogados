@@ -100,7 +100,7 @@ a,
 .blog-detail .post-share-options .tags li a:hover,
 .sidebar-page-container .comments-area .comment-box .theme-btn,
 .mobile-menu .navigation li:hover > a, .mobile-menu .navigation li.current > a{
-	color:#a8881b;
+	color:#bc961b;
 }
 
 /* Background Color */
@@ -202,7 +202,7 @@ a,
 .blog-detail .inner-box .image .post-date,
 .ui-state-active, .ui-widget-content .ui-state-active,
 .team-block .inner-box .overlay-content .share-box .social-box li a:hover{
-	background-color:#a8881b;
+	background-color:#bc961b;
 }
 
 .gallery-block .overlay-box{
@@ -243,7 +243,7 @@ a,
 .faq-form .form-group input[type="email"]:focus,
 .faq-form .form-group select:focus,
 .faq-form .form-group textarea:focus{
-	border-color:#a8881b;
+	border-color:#bc961b;
 }
 
 /* Border Bottom Color */
@@ -252,17 +252,17 @@ a,
 .main-slider-three .slide .side-tag:before,
 .main-slider-two .slide .side-tag:before,
 .main-slider .slide .side-tag:before{
-	border-bottom-color:#a8881b;
+	border-bottom-color:#bc961b;
 }
 
 /* Border Top Color */
 
 .about-author-box .box-inner .upper-box:before{
-	border-top-color:#a8881b;
+	border-top-color:#bc961b;
 }
 
 /* Border Left Color */
 
 .blog-detail .inner-box .lower-content blockquote{
-	border-left-color:#a8881b;
+	border-left-color:#bc961b;
 }
