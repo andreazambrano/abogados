@@ -777,6 +777,38 @@ img{
 /*** 
 
 ====================================================================
+	whatsapp style
+====================================================================
+
+***/
+
+.whatsapp{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	width:60px;
+	height:80px;
+	color:#ffffff;
+	font-size:24px;
+	line-height:60px;
+	text-align:center;
+	z-index:100;
+	cursor:pointer;
+	background:#222222;
+	display:none;
+	border-radius: 0;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.whatsapp:hover{
+	background:#555555;
+}
+
+/*====================================================================
 	Section Title
 ====================================================================
 
