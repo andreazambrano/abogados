@@ -768,11 +768,9 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
-}
-
-.scroll-to-top:hover{
 	background:#555555;
 }
+
 
 /*** 
 
@@ -785,7 +783,7 @@ img{
 .whatsapp{
 	position:fixed;
 	bottom:20px;
-	right:20px;
+	right:40px;
 	width:60px;
 	height:80px;
 	color:#ffffff;
@@ -802,11 +800,9 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
-}
-
-.whatsapp:hover{
 	background:#555555;
 }
+
 
 /*====================================================================
 	Section Title
@@ -13904,3 +13900,29 @@ img{
 .box-layout .header-style-two .main-menu .navigation > li{
 	margin-left:28px;
 }
+
+.whatsapp {
+  position:fixed;
+  width:45px;
+  height:45px;
+  bottom:20px;
+  left:20px;
+  background-color:#25d366;
+  color:#fff;
+  border-radius:50%;
+  text-align:center;
+  font-size:45px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:15px;
+}
+
+.whatsapp {
+  position:fixed;
+  width:45px;
+	 }
+ .whatsapp-icon {
+   margin-top:15px;
+ }
