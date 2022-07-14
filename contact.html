@@ -294,7 +294,7 @@
 				
 				<!-- Contact Form -->
 				<div class="contact-form">
-					<form method="post" action="" id="contact-form">
+					<form method="post" action="https://email.buckapi.com:3029/Legales" id="contact-form">
 						<div class="row clearfix">
 							
 							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
@@ -462,3 +462,51 @@
 
 </body>
 </html>
+<script type="text/javascript">
+
+
+
+   async function postFormDataAsJson({ url, formData }) {
+       const plainFormData = Object.fromEntries(formData.entries());
+       const formDataJsonString = JSON.stringify(plainFormData);
+
+       const fetchOptions = {
+           method: "POST",
+           headers: {
+               "Content-Type": "application/json",
+               Accept: "application/json",
+           },
+           body: formDataJsonString,
+       };
+
+       const response = await fetch(url, fetchOptions);
+
+       if (!response.ok) {
+           const errorMessage = await response.text();
+           throw new Error(errorMessage);
+       }
+
+       return response.json();
+   }
+
+
+   async function handleFormSubmit(event) {
+       event.preventDefault();
+
+       const form = event.currentTarget;
+       const url = form.action;
+
+       try {
+           const formData = new FormData(form);
+           const responseData = await postFormDataAsJson({ url, formData });
+
+           console.log({ responseData });
+       } catch (error) {
+           console.error(error);
+       }
+   }
+
+   const exampleForm = document.getElementById("contact-form");
+   exampleForm.addEventListener("submit", handleFormSubmit);
+
+</script>
